@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dati Covid</title>
+    <link rel="stylesheet" href="https://star08-web.fyi/css/pico/pico.min.css">
+</head>
+
+<body>
+    <main class="container">
+        <h1>Dati Covid</h1>
+
+        <div>
+            <label for="when">Seleziona Anno:</label>
+            <select id="when">
+                <option value="">Caricamento...</option>
+            </select>
+        </div>
+
+        <table>
+            <thead id=cth>
+                <tr>
+                    <th>Parametro</th>
+                    <th>Valore</th>
+                </tr>
+            </thead>
+            <tbody id="ctb">
+                <tr>
+                    <td colspan="2" class="loading">Seleziona un anno per visualizzare i dati.</td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+    <script src="./site.js"></script>
+</body>
+
+</html>
